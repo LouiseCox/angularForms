@@ -23,4 +23,8 @@ export class AppComponent {
     return this.surveyFormGroup.get('name');
   }
 
+  onSubmit() {
+    console.log(this.surveyFormGroup.value);
+  }
+
 }
